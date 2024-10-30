@@ -1,0 +1,118 @@
+.password-manager-container {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #2b2e4a;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .app-logo {
+    width: 40px;
+  }
+  
+  .add-password-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #383a59;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .add-password-container {
+    flex: 1;
+  }
+  
+  .add-password-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    display: flex;
+    align-items: center;
+    background-color: #4e507a;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 400px;
+  }
+  
+  .input-icon {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="search"] {
+    flex: 1;
+    background: none;
+    border: none;
+    color: #fff;
+    outline: none;
+  }
+  
+  .add-button {
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .illustration {
+    width: 300px;
+  }
+  
+  .your-passwords-section {
+    background-color: #383a59;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .your-passwords-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color: #4e507a;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .search-icon {
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  .show-passwords {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .show-passwords label {
+    margin-left: 5px;
+  }
+  
+  .passwords-list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  
